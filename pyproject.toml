@@ -1,0 +1,19 @@
+[project]
+name = "meow-python"
+version = "0.1.0"
+description = "Games project"
+authors = [
+    { name = "iploxz", email = "isip_d.s.veis@mpt.ru" }
+]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.scripts]
+vd-main = "meow_python.iploxz.VD_games.scripts.VD_main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
